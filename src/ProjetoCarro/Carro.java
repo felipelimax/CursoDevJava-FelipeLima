@@ -10,16 +10,16 @@ public class Carro {
    void acelera (){
        velocidade_Atual += 1;
           }
+   
     void freia(){
      velocidade_Atual = 0;
          }
+   
     void troca_marcha(int marcha){
     marcha_atual = marcha;
-    }
+         }
+   
     void reduzir_marcha(){
        marcha_atual -=1;
-
-    }
-
-
+         }
 }
